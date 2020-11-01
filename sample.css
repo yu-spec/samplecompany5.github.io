@@ -1,0 +1,332 @@
+/* 共通 */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sans-serif";
+  background: #eee;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+span {
+  color: #666;
+}
+
+.red-text {
+  color: red;
+}
+
+.notice-option {
+  margin-top: 40px;
+}
+/* sample1 */
+/* wrapper */
+#wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  border-top: 10px solid #99FFFF;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+/* header */
+.header-title {
+  line-height: 100px;
+  padding-left: 20px;
+  color: #99FFFF;
+}
+
+.header-bg {
+  background-image: url(../images/sky.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.header-bg h2 {
+  padding: 50px 0 0 50px;
+  font-size: 36px;
+}
+/* menu */
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  width: 25%;
+  text-align: center;
+  border-top: 1px solid #d2d2d2;
+  border-top: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+}
+
+.menu li:first-child {
+  border-left: none;
+}
+
+.menu li:hover {
+  transition: .5s;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.menu ul li a {
+  padding: 20px 0;
+  display: block;
+}
+/* section */
+.section {
+  display: flex;
+  padding: 20px 0;
+}
+/* notice */
+.notice {
+  width: 75%;
+}
+
+.notice-box {
+  margin-bottom: 80px;
+}
+
+.notice-title {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #99FFFF;
+  border-radius: 10px;
+}
+
+.notice-title h3 {
+  padding: 10px;
+}
+
+.notice-list {
+  padding-left: 50px;
+  letter-spacing: 1.3px;
+}
+
+.notice-list li {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.notice-text a {
+  text-decoration: underline;
+}
+
+.notice-text a:hover {
+
+}
+/* 利用規約 */
+.notice-subtitle {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  background: linear-gradient(#fefefe, #eaeaea);
+}
+
+.log {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.notice-text {
+  padding-left: 50px;
+}
+/* submenu */
+.submenu {
+  width: 25%;
+  margin: 0 40px;
+}
+
+.box {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #d2d2d2;
+  background: linear-gradient(#fefefe, #eaeaea);
+  margin-bottom: 30px;
+}
+
+.submenu-title1 {
+  padding: 20px;
+  background-color: #eee;
+  border-top: 5px solid #99FFFF;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.submenu-list1 li {
+  border-bottom: 1px solid #d2d2d2;
+  font-size: 18px;
+}
+/* 運営 */
+.box3 {
+  text-align: center;
+}
+
+.submenu-subtext p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.company {
+  margin-top: 10px;
+  text-align: center;
+}
+/* footer */
+footer {
+  width: 100%;
+  padding:10px 0;
+  text-align: center;
+  background-color: #99FFFF;
+}
+
+small p {
+  margin-bottom: 0;
+  line-height: 2.5em;
+}
+/* sample2 */
+.tab1 {
+  width: 100%;
+  margin-bottom: 40px;
+  border-collapse: collapse;
+}
+
+.tab1 th {
+  width: 170px;
+}
+
+.tab1 th, .tab1 td {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 1px solid #d2d2d2;
+}
+/* sample3 */
+.item {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  background: linear-gradient(#fefefe, #eaeaea);
+}
+
+.item a {
+  display: block;
+  padding: 20px;
+  background: linear-gradient(#fff, #eee);
+  overflow: hidden;
+}
+
+.item a:hover {
+  background: #fff;
+}
+
+.item img {
+  width: 30%;
+  margin-right: 10px;
+  float: left;
+}
+
+.item-text h4 {
+  font-size: 18px;
+}
+/* sample4 */
+.tab1 .th-h {
+  width: auto;
+  text-align: left;
+}
+/* sample5 */
+.tab1 input,textarea {
+  text-align: left;
+  display: block;
+}
+
+.tab2 {
+  margin-top: 100px;
+}
+
+.ws {
+  width: 50%;
+  height: 20px;
+}
+
+.wl {
+  width: 96%;
+  height: 185px;
+}
+
+.button {
+  font-size: 15px;
+  background: linear-gradient(#fff, #eee);
+  padding: 10px 20px;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn input {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+/* 共通 */
+  .section {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0;
+  }
+
+  .notice {
+    width: 100%;
+  }
+
+  .notice-title {
+    margin-left: 0;
+  }
+
+  .notice-box {
+    margin-bottom: 50px;
+  }
+
+  .notice-list {
+    padding-left: 0;
+    font-size: 12px;
+  }
+
+  .notice-subtitle {
+    margin-left: 0;
+  }
+
+  .notice-text {
+    padding-left: 0;
+  }
+
+  .submenu {
+    width: 100%;
+    margin: 0;
+  }
+
+  .box {
+    margin-bottom: 15px;
+  }
+}
