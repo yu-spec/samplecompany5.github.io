@@ -52,7 +52,7 @@ span {
 }
 
 .header-bg {
-  background-image: url(../images/sky.jpg);
+  background-image: url("https://yu-spec.github.io/samplecompany5.github.io/sky.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
